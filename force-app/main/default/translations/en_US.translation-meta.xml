@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Dreamhouse --></label>
+        <name>Dreamhouse</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- greeting --></label>
+        <name>greeting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- salesforceLogoDescription --></label>
+        <name>salesforceLogoDescription</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Property Explorer --></label>
+        <name>Property_Explorer</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Property Finder --></label>
+        <name>Property_Finder</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Settings --></label>
+        <name>Settings</name>
+    </customTabs>
+    <prompts>
+        <name>Property</name>
+        <promptVersions>
+            <name>Property Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>PropertyFinder</name>
+        <promptVersions>
+            <name>Property Finder Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Finder Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Finder Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>PropertyExplorer</name>
+        <promptVersions>
+            <name>Property Explorer Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Explorer Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Explorer Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Explorer Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Explorer Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Explorer Step 6</name>
+            <stepNumber>6</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Property Explorer Step 7</name>
+            <stepNumber>7</stepNumber>
+        </promptVersions>
+    </prompts>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>
