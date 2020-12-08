@@ -4,6 +4,7 @@
     "description": "DreamHouse Sample App - Lightning Web Components",
     "scripts": {
         "lint": "npm run lint:lwc && npm run lint:aura",
+        "lint:i18n": "i18n-lint",
         "lint:lwc": "eslint **/lwc/**",
         "lint:aura": "eslint **/aura/**",
         "test": "npm run lint && npm run test:unit",
@@ -34,6 +35,7 @@
         "eslint": "^7.14.0",
         "eslint-config-prettier": "^6.15.0",
         "husky": "^4.3.0",
+        "i18n-lint": "github:apoblock/i18n-lint#optional-config",
         "lint-staged": "^10.5.2",
         "prettier": "^2.2.1",
         "prettier-plugin-apex": "^1.7.0",

@@ -1,0 +1,8 @@
+{
+    "attributes": ["alt", "placeholder", "title"],
+    "ignoreTags": ["style", "script", "pre", "code"],
+    "templateDelimiters": [["{", "}"]],
+    "exclude": [],
+    "color": true,
+    "include": ["**/lwc/**/*.html"]
+}
