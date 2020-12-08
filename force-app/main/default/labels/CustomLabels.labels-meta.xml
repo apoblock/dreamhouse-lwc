@@ -5,7 +5,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>greeting</shortDescription>
-        <value>Greetings!</value>
+        <value>Greetings! Current date is </value>
     </labels>
     <labels>
         <fullName>salesforceLogoDescription</fullName>
