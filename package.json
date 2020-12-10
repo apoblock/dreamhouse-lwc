@@ -28,12 +28,13 @@
     "devDependencies": {
         "@prettier/plugin-xml": "^0.12.0",
         "@sa11y/jest": "^0.1.4-beta.0",
-        "@salesforce/eslint-config-lwc": "0.8.0",
+        "@salesforce/eslint-config-lwc": "github:apoblock/eslint-config-lwc#i18n-config-beta",
         "@salesforce/eslint-plugin-aura": "^1.4.0",
         "@salesforce/sfdx-lwc-jest": "^0.10.2",
         "eslint": "^7.14.0",
         "eslint-config-prettier": "^6.15.0",
         "husky": "^4.3.0",
+        "i18n-lint": "github:apoblock/i18n-lint#optional-config",
         "lint-staged": "^10.5.2",
         "prettier": "^2.2.1",
         "prettier-plugin-apex": "^1.7.0",
@@ -51,5 +52,9 @@
         "**/{aura|lwc}/**": [
             "eslint"
         ]
+    },
+    "dependencies": {
+        "@localizer/get-intl-options-from-cldr": "file:../../Globalization/localizerjs/packages/@localizer/get-intl-options-from-cldr/localizer-get-intl-options-from-cldr-0.0.5.tgz",
+        "@localizer/localization-service": "file:../../Globalization/localizerjs/packages/@localizer/localization-service/localizer-localization-service-0.0.5.tgz"
     }
 }
