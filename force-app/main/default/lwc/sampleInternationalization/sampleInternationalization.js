@@ -22,6 +22,9 @@ export default class SampleInternationalization extends LightningElement {
     get currentDate() {
         var date = new Date();
 
-        return new Intl.DateTimeFormat().format(date);
+        return new Intl.DateTimeFormat('en-US', {
+            dateStyle: 'full',
+            timeStyle: 'long'
+        }).format(date);
     }
 }

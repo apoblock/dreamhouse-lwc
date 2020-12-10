@@ -5,7 +5,7 @@
         <name>Dreamhouse</name>
     </customApplications>
     <customLabels>
-        <label>fr_ Greetings! Current date is _fr</label>
+        <label>Salutations! La date actuelle est</label>
         <name>greeting</name>
     </customLabels>
     <customLabels>
