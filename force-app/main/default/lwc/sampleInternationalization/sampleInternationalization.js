@@ -4,6 +4,10 @@ import { LightningElement } from 'lwc';
 import greeting from '@salesforce/label/c.greeting';
 import salesforceLogoDescription from '@salesforce/label/c.salesforceLogoDescription';
 
+// Import localizerjs
+import { formattingOptions } from '@localizer/get-intl-options-from-cldr';
+import { getDateTimeFormat } from '@localizer/localization-service';
+
 import LOCALE from '@salesforce/i18n/locale';
 
 export default class SampleInternationalization extends LightningElement {
@@ -22,9 +26,11 @@ export default class SampleInternationalization extends LightningElement {
     get currentDate() {
         var date = new Date();
 
-        return new Intl.DateTimeFormat('en-US', {
-            dateStyle: 'full',
-            timeStyle: 'long'
-        }).format(date);
+        // Intl replacement
+        var longDateOptions = formattingOptions.longDateFormat;
+        var dateFormatterLong = getDateTimeFormat(this.locale, longDateOptions);
+        var formattedDateLong = dateFormatterLong.format(date);
+
+        return formattedDateLong;
     }
 }

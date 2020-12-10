@@ -53,5 +53,9 @@
         "**/{aura|lwc}/**": [
             "eslint"
         ]
+    },
+    "dependencies": {
+        "@localizer/get-intl-options-from-cldr": "file:../../Globalization/localizerjs/packages/@localizer/get-intl-options-from-cldr/localizer-get-intl-options-from-cldr-0.0.5.tgz",
+        "@localizer/localization-service": "file:../../Globalization/localizerjs/packages/@localizer/localization-service/localizer-localization-service-0.0.5.tgz"
     }
 }
